@@ -1,3 +1,7 @@
+h1,h2,h3 {
+  text-align: center;
+}
+
 .topnav {
   background-color: greenyellow;
   overflow: auto;
@@ -27,6 +31,9 @@
   border-color: olivedrab;
   float: left;
   width: 60%;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-stretch: wider;
 
 }
 
@@ -63,6 +70,7 @@ display: inline;
   border: 1%;
   border-style: solid;
   width: 40%;
+  font-size: larger;
 }
 
 .footer {
@@ -72,6 +80,7 @@ display: inline;
   width: 100%;
   padding: 5%
   ;
+  font-size: x-large;
 }
 
 .navbar a:hover {
@@ -80,4 +89,14 @@ display: inline;
 
 .navbar a.active {
   background-color: olive;
+}
+
+.column {
+  flex: 50%;
+}
+
+img {
+  width: 100px;
+  display: grid;
+  flex-wrap: wrap;
 }

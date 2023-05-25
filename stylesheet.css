@@ -77,6 +77,7 @@ display: inline;
   font-size: larger;
 }
 
+
 .footer {
   background-color: olivedrab;
   position: absolute;
@@ -96,15 +97,20 @@ display: inline;
 }
 
 .column {
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   display: grid;
-  grid-template-columns: repeat(2, 5vw);
-  grid-template-rows: repeat(2, 5vw);
+  grid-template-columns: repeat(2, 10vw);
+  grid-template-rows: repeat(2, 10vw);
   grid-gap: 2px;
 }
 
+
+
 img {
-  width: 100px;
+  width: 200px;
   display: grid;
   flex-wrap: wrap;
 }
@@ -116,3 +122,22 @@ img {
 .goofed:hover {
   width: 500px; height: 300px;
 }
+
+table,th,tr {
+  border: solid;
+  border-width: 1px;
+
+}
+
+
+.video {
+  display: inline-block;
+  margin-right: 200px;
+}
+
+.table {
+  display: inline-block;
+  vertical-align: top;
+}
+
+

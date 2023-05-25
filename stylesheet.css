@@ -11,10 +11,12 @@ h1,h2,h3 {
 
 /*links inside navbar*/
 .topnav a {
+  color: black;
+  text-decoration: none;
   float: left;
-  padding: 10px;
-  font-size: 20px;
-  width: 17%;
+  padding: 18px;
+  font-size: 25px;
+  width: 18%;
   text-align: center;
 }
 
@@ -78,11 +80,11 @@ display: inline;
 .footer {
   background-color: olivedrab;
   position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 5%
-  ;
+  bottom: 02;
+  width: 89%;
+  padding: 5%;
   font-size: x-large;
+  
 }
 
 .navbar a:hover {
@@ -94,7 +96,11 @@ display: inline;
 }
 
 .column {
-  flex: 50%;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 5vw);
+  grid-template-rows: repeat(2, 5vw);
+  grid-gap: 2px;
 }
 
 img {
